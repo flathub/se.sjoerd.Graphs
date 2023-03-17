@@ -33,7 +33,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/SjoerdB93/Graphs.git",                    
-                    "commit" : "76c7da597052950c12b2effd5d3e4e4019ffe325"
+                    "commit" : "56a862a4294f14072ac3eb936ee2e7adb3ce41d8"
                 }
             ]
         }
