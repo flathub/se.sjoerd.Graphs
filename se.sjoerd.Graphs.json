@@ -23,9 +23,7 @@
     ],
     "modules" : [
     	"blueprint-compiler.json",
-    	"python3-numpy.json",
-    	"python3-matplotlib.json",
-    	"python3-scipy.json",
+    	"python-dependencies.json",
         {
             "name" : "graphs",
             "buildsystem" : "meson",
@@ -33,8 +31,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/SjoerdB93/Graphs.git",                    
-                    "commit" : "af1fd2d90a24a641dd479ad8a84d6ab78528947e",
-                    "tag" : "v1.5.2"
+                    "commit" : "a15ff34b04108245a12d993adc386f65ebde6cdb",
+                    "tag" : "v1.6.0"
                 }
             ],
             "config-opts" : [
