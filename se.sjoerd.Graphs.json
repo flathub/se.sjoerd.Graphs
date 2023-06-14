@@ -31,7 +31,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/SjoerdB93/Graphs.git",                    
-                    "commit" : "af5b95dc644164f92965a15ec931cfb4fbbb37f5",
+                    "commit" : "ce29d8ec5ff361bdaa7b6506f7b3493a5392cb2e",
                     "tag" : "v1.6.1"
                 }
             ],
