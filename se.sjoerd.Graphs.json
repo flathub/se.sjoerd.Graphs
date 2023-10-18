@@ -1,7 +1,7 @@
 {
     "app-id" : "se.sjoerd.Graphs",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "command" : "graphs",
     "finish-args" : [
@@ -31,7 +31,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/SjoerdB93/Graphs.git",                    
-                    "commit" : "d266bada56be83eaab87d1852ee3a404049e5fba"
+                    "commit" : "9c4be4293e4d86b4b2c383c5feba3ba16e392fec"
                 }
             ]
         }
