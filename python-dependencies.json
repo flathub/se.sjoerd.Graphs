@@ -23,7 +23,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "numpy",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -34,7 +33,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "numpy",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -45,7 +43,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "scipy",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -56,7 +53,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "scipy",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -87,7 +83,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "Pillow",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -98,7 +93,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "Pillow",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -119,7 +113,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "contourpy",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -130,7 +123,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "contourpy",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -141,7 +133,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "kiwisolver",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -152,7 +143,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "kiwisolver",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -183,7 +173,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "matplotlib",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -194,7 +183,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "matplotlib",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -205,7 +193,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "numexpr",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
@@ -216,7 +203,6 @@
             "x-checker-data": {
 				"type": "pypi",
 				"name": "numexpr",
-				"packagetype": "bdist_wheel"
 			}
         },
         {
