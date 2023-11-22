@@ -157,8 +157,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7d/15/24ded19c2093614238aa9d161c89a85ac0a184ced564d28313ef3f5f46ca/fonttools-4.44.0-py3-none-any.whl",
-            "sha256": "b9beb0fa6ff3ea808ad4a6962d68ac0f140ddab080957b20d9e268e4d67fb335",
+            "url": "https://files.pythonhosted.org/packages/5b/b4/57610d82b1522002908d477f378e999b885d3fcbd92e7e7eb2dc402138bd/fonttools-4.45.0-py3-none-any.whl",
+            "sha256": "835cf5d0e1b37bbed1d64c286611cc4da9ff19df952400f191ba9142b3cb97f6",
             "x-checker-data": {
 				"type": "pypi",
 				"name": "fonttools",
