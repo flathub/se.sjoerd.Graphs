@@ -30,8 +30,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://github.com/SjoerdB93/Graphs.git",                    
-                    "commit" : "e50793ab6b2124c9324ac3cfb4d5fde9995c1d15"
+                    "url" : "https://gitlab.gnome.org/World/Graphs.git",                    
+                    "commit" : "c2ec1fc1f49328d7851960346dd4ec14d77ef164"
                 }
             ]
         }
