@@ -1,16 +1,16 @@
 {
-    "id" : "se.sjoerd.Graphs",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "graphs",
-    "finish-args" : [
+    "id": "se.sjoerd.Graphs",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "46",
+    "sdk": "org.gnome.Sdk",
+    "command": "graphs",
+    "finish-args": [
         "--share=ipc",
         "--socket=wayland",
         "--socket=fallback-x11",
         "--device=dri"
     ],
-    "cleanup" : [
+    "cleanup": [
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -21,22 +21,22 @@
         "*.la",
         "*.a"
     ],
-    "modules" : [
+    "modules": [
         "build-aux/flatpak/blueprint-compiler.json",
         "build-aux/flatpak/python-dependencies.json",
         {
-            "name" : "graphs",
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "graphs",
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/World/Graphs.git",                    
-                    "commit" : "c086f8bd601818abd9b674d350c1ac3fc6941e36",
-                    "tag" : "v1.8.1"
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/World/Graphs.git",
+                    "commit": "975314e3890da10c92234f54753a9e77399cc212",
+                    "tag": "v1.8.1"
                 }
             ],
-            "config-opts" : [
-		"--buildtype=release"
+            "config-opts": [
+                "--buildtype=release"
             ]
         }
     ]
