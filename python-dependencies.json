@@ -9,18 +9,25 @@
             "builddir": true,
             "config-opts": [
                 "-DBUILD_TESTING:BOOL=OFF",
-                "-DDYNAMIC_ARCH:BOOL=ON"
+                "-DBUILD_SHARED_LIBS:BOOL=ON",
+                "-DBUILD_STATIC_LIBS:BOOL=OFF",
+                "-DDYNAMIC_ARCH:BOOL=ON",
+                "-DCMAKE_BUILD_TYPE:STRING=Release"
             ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.30.tar.gz",
-                    "sha256": "27342cff518646afb4c2b976d809102e368957974c250a25ccc965e53063c95d",
+                    "type": "git",
+                    "url": "https://github.com/OpenMathLib/OpenBLAS",
+                    "commit": "993fad6aebbce34a97d3f8c34d6d79d35b64cc48",
+                    "tag": "v0.3.30",
                     "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 2540,
-                        "url-template": "https://github.com/xianyi/OpenBLAS/archive/v$version.tar.gz"
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-aarch64-build.patch"
                 }
             ]
         },
@@ -214,6 +221,12 @@
                     "name": "qhull",
                     "buildsystem": "cmake-ninja",
                     "builddir": true,
+                    "config-opts": [
+                        "-DBUILD_APPLICATIONS:BOOL=OFF",
+                        "-DBUILD_STATIC_LIBS:BOOL=OFF",
+                        "-DQHULL_ENABLE_TESTING:BOOL=OFF",
+                        "-DCMAKE_BUILD_TYPE:STRING=Release"
+                    ],
                     "sources": [
                         {
                             "type": "git",
@@ -230,6 +243,9 @@
                 {
                     "name": "Raqm",
                     "buildsystem": "meson",
+                    "config-opts": [
+                        "--buildtype=release"
+                    ],
                     "sources": [
                         {
                             "type": "git",
@@ -481,17 +497,16 @@
                     "name": "gio-pyio",
                     "buildsystem": "simple",
                     "build-commands": [
-                        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"gio-pyio\""
+                        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation \"gio-pyio\""
                     ],
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/46/88/96afb5571b9aefa314b3f63ff01f1180f6f0f7bfac1585be5740f78c41db/gio_pyio-0.0.6-py3-none-any.whl",
-                            "sha256": "300b73f4904fb933c751f19b08667e0b91fc73e35aca863cd72c1595aa480134",
+                            "url": "https://files.pythonhosted.org/packages/5b/51/3c95292f35445e525922c2488d466b4e885595779449bd1becac66546a8e/gio_pyio-0.0.6.tar.gz",
+                            "sha256": "bab1231c5a456eee014a27e169ba48735cf532e34b36688b86b74ca3e5ab5915",
                             "x-checker-data": {
                                 "type": "pypi",
-                                "name": "gio-pyio",
-                                "packagetype": "bdist_wheel"
+                                "name": "gio-pyio"
                             }
                         }
                     ]
