@@ -15,9 +15,6 @@
         "*.la",
         "*.a"
     ],
-    "build-options": {
-        "ldflags": "-Wl,--strip-all"
-    },
     "modules": [
         "blueprint-compiler.json",
         "python-dependencies.json",
