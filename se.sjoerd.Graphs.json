@@ -1,30 +1,33 @@
 {
-    "id": "se.sjoerd.Graphs",
-    "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
-    "sdk": "org.gnome.Sdk",
-    "command": "graphs",
-    "finish-args": [
+    "id" : "se.sjoerd.Graphs",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "48",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "graphs",
+    "finish-args" : [
         "--share=ipc",
         "--socket=wayland",
         "--socket=fallback-x11",
-        "--device=dri",
-        "--env=NUMEXPR_MAX_THREADS=16"
+        "--device=dri"
     ],
-    "cleanup": [
+    "cleanup" : [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
         "*.la",
         "*.a"
     ],
-    "build-options": {
-        "ldflags": "-Wl,--strip-all"
-    },
-    "modules": [
+    "modules" : [
         "blueprint-compiler.json",
         "python-dependencies.json",
         {
-            "name": "graphs",
-            "buildsystem": "meson",
-            "sources": [
+            "name" : "graphs",
+            "buildsystem" : "meson",
+            "sources" : [
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/World/Graphs.git",                    
