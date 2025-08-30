@@ -16,7 +16,7 @@
         "*.a"
     ],
     "build-options": {
-        "ldflags": "-Wl,--strip-all"
+        "ldflags": "-Wl,--strip-unneeded"
     },
     "modules": [
         "blueprint-compiler.json",
