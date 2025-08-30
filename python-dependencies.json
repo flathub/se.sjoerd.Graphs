@@ -416,8 +416,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/43/91/f2939bb60b7ebf12478b030e0d7f340247390f402b3b189616aad790c366/matplotlib-3.10.5.tar.gz",
-                            "sha256": "352ed6ccfb7998a00881692f38b4ca083c691d3e275b4145423704c34c909076",
+                            "url": "https://files.pythonhosted.org/packages/a0/59/c3e6453a9676ffba145309a73c462bb407f4400de7de3f2b41af70720a3c/matplotlib-3.10.6.tar.gz",
+                            "sha256": "ec01b645840dd1996df21ee37f208cd8ba57644779fa20464010638013d3203c",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "matplotlib"
