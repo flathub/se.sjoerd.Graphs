@@ -4,28 +4,33 @@
     "build-commands": [],
     "modules": [
         {
-          "name": "openblas",
-          "buildsystem": "simple",
-          "build-commands": [
-            "make DYNAMIC_ARCH=1 USE_OPENMP=0 BINARY=64 CC=gcc FC=gfortran -j${FLATPAK_BUILDER_N_JOBS}",
-            "make install PREFIX=/app"
-          ],
-          "sources": [
-            {
-              "type": "git",
-              "url": "https://github.com/OpenMathLib/OpenBLAS",
-              "commit": "993fad6aebbce34a97d3f8c34d6d79d35b64cc48",
-              "tag": "v0.3.30",
-              "x-checker-data": {
-                "type": "git",
-                "tag-pattern": "^v([\\d.]+)$"
-              }
-            },
-            {
-              "type": "patch",
-              "path": "fix-aarch64-build.patch"
-            }
-          ]
+            "name": "openblas",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "config-opts": [
+                "-DBUILD_TESTING:BOOL=OFF",
+                "-DBUILD_SHARED_LIBS:BOOL=ON",
+                "-DBUILD_STATIC_LIBS:BOOL=OFF",
+                "-DDYNAMIC_ARCH:BOOL=ON",
+                "-DTARGET=generic",
+                "-DCMAKE_BUILD_TYPE:STRING=Release"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/OpenMathLib/OpenBLAS",
+                    "commit": "993fad6aebbce34a97d3f8c34d6d79d35b64cc48",
+                    "tag": "v0.3.30",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-aarch64-build.patch"
+                }
+            ]
         },
         {
             "name": "python-build-dependencies",
