@@ -26,13 +26,13 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/World/Graphs.git",                    
-                    "commit" : "9540a6da505d6499e6a26a5954098922d6a4226d",
-                    "tag" : "v1.8.5"
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/World/Graphs.git",
+                    "commit": "9540a6da505d6499e6a26a5954098922d6a4226d",
+                    "tag": "v1.8.5"
                 }
             ],
-            "config-opts" : [
+            "config-opts": [
                 "--buildtype=release"
             ]
         }
