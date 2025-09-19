@@ -225,7 +225,8 @@
                         "-DBUILD_APPLICATIONS:BOOL=OFF",
                         "-DBUILD_STATIC_LIBS:BOOL=OFF",
                         "-DQHULL_ENABLE_TESTING:BOOL=OFF",
-                        "-DCMAKE_BUILD_TYPE:STRING=Release"
+                        "-DCMAKE_BUILD_TYPE:STRING=Release",
+                        "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
                     ],
                     "sources": [
                         {
@@ -376,6 +377,16 @@
                         "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"python-dateutil\""
                     ],
                     "sources": [
+                        {
+                            "type": "file",
+                            "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+                            "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+                            "x-checker-data": {
+                                "type": "pypi",
+                                "name": "six",
+                                "packagetype": "bdist_wheel"
+                            }
+                        },
                         {
                             "type": "file",
                             "url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
