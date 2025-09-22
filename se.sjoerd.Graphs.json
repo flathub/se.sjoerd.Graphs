@@ -16,7 +16,6 @@
         "*.a"
     ],
     "modules": [
-        "blueprint-compiler.json",
         "python-dependencies.json",
         {
             "name": "graphs",
