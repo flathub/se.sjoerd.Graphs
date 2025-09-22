@@ -1,7 +1,7 @@
 {
     "id": "se.sjoerd.Graphs",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "graphs",
     "finish-args": [
@@ -16,7 +16,6 @@
         "*.a"
     ],
     "modules": [
-        "blueprint-compiler.json",
         "python-dependencies.json",
         {
             "name": "graphs",
@@ -25,7 +24,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Graphs.git",
-                    "commit": "7aaff03e6a2add532f60f28070fb24f64856097c"
+                    "commit": "a40cc6d8edf5fd76d78a4d22fc24cca201341085"
                 }
             ]
         }
