@@ -452,8 +452,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/7c/08/211c9ae8a230f20976f3b0b9a3308264c62bd05caf92aba7c59beebf6049/numexpr-2.12.1.tar.gz",
-                            "sha256": "e239faed0af001d1f1ea02934f7b3bb2bb6711ddb98e7a7bef61be5f45ff54ab",
+                            "url": "https://files.pythonhosted.org/packages/45/6e/8164bc96108991fcd74e9d3eda4a4bf5752c394dde5b2408ecbefeaa339f/numexpr-2.13.0.tar.gz",
+                            "sha256": "3363d804f202437586447a49b5c83b01322e8be72279d49e0bf524720edc01b6",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numexpr"
