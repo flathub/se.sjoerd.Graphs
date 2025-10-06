@@ -305,8 +305,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/27/d9/4eabd956fe123651a1f0efe29d9758b3837b5ae9a98934bdb571117033bb/fonttools-4.60.0.tar.gz",
-                            "sha256": "8f5927f049091a0ca74d35cce7f78e8f7775c83a6901a8fbe899babcc297146a",
+                            "url": "https://files.pythonhosted.org/packages/4b/42/97a13e47a1e51a5a7142475bbcf5107fe3a68fc34aef331c897d5fb98ad0/fonttools-4.60.1.tar.gz",
+                            "sha256": "ef00af0439ebfee806b25f24c8f92109157ff3fac5731dc7867957812e87b8d9",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "fonttools"
@@ -452,8 +452,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/7c/08/211c9ae8a230f20976f3b0b9a3308264c62bd05caf92aba7c59beebf6049/numexpr-2.12.1.tar.gz",
-                            "sha256": "e239faed0af001d1f1ea02934f7b3bb2bb6711ddb98e7a7bef61be5f45ff54ab",
+                            "url": "https://files.pythonhosted.org/packages/8d/ca/c1217ae2c15c3284a9e219c269624f80fa1582622eb0400c711a26f84a43/numexpr-2.13.1.tar.gz",
+                            "sha256": "ecb722249c2d6ed7fefe8504bb17e056481a5f31233c23a7ee02085c3d661fa1",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numexpr"
