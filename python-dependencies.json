@@ -70,8 +70,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f7/14/dd3a6053325e882fe191fb4b42289bbdfabf5f44307c302903a8a3236a0a/setuptools_scm-9.2.0-py3-none-any.whl",
-                    "sha256": "c551ef54e2270727ee17067881c9687ca2aedf179fa5b8f3fab9e8d73bdc421f",
+                    "url": "https://files.pythonhosted.org/packages/11/cc/5fda7ed3aab0814a86e428846b6b386f55093f4621d86e3cd081ae126c27/setuptools_scm-9.2.1-py3-none-any.whl",
+                    "sha256": "84c9b3f39ffb77ba00dd92a06e025e4f66dc69ab8df1c2a225a0678e76311f8d",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools-scm",
@@ -452,8 +452,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/8d/ca/c1217ae2c15c3284a9e219c269624f80fa1582622eb0400c711a26f84a43/numexpr-2.13.1.tar.gz",
-                            "sha256": "ecb722249c2d6ed7fefe8504bb17e056481a5f31233c23a7ee02085c3d661fa1",
+                            "url": "https://files.pythonhosted.org/packages/c0/d2/45d18fc7d037b0b10bb2dacecde58b850070db0da435ba30522464f55ee5/numexpr-2.14.0.tar.gz",
+                            "sha256": "a1b59aab62933ace995d7b07bb41231bcf46decffbcfcfc94670ac6d51a46fcf",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numexpr"
