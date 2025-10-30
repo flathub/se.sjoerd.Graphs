@@ -201,8 +201,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/4c/3b/546a6f0bfe791bbb7f8d591613454d15097e53f906308ec6f7c1ce588e8e/scipy-1.16.2.tar.gz",
-                            "sha256": "af029b153d243a80afb6eabe40b0a07f8e35c9adc269c019f364ad747f826a6b",
+                            "url": "https://files.pythonhosted.org/packages/0a/ca/d8ace4f98322d01abcd52d381134344bf7b431eba7ed8b42bdea5a3c2ac9/scipy-1.16.3.tar.gz",
+                            "sha256": "01e87659402762f43bd2fee13370553a17ada367d42e7487800bf2916535aecb",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "scipy"
