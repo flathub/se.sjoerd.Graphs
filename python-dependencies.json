@@ -97,8 +97,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/b5/f4/098d2270d52b41f1bd7db9fc288aaa0400cb48c2a3e2af6fa365d9720947/numpy-2.3.4.tar.gz",
-                            "sha256": "a7d018bfedb375a8d979ac758b120ba846a7fe764911a64465fd87b8729f4a6a",
+                            "url": "https://files.pythonhosted.org/packages/76/65/21b3bc86aac7b8f2862db1e808f1ea22b028e30a225a34a5ede9bf8678f2/numpy-2.3.5.tar.gz",
+                            "sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numpy"
