@@ -50,8 +50,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/7e/b1/8e63033b259e0a4e40dd1ec4a9fee17718016845048b43a36ec67d62e6fe/pyproject_metadata-0.9.1-py3-none-any.whl",
-                    "sha256": "ee5efde548c3ed9b75a354fc319d5afd25e9585fa918a34f62f904cc731973ad",
+                    "url": "https://files.pythonhosted.org/packages/c0/57/e69a1de45ec7a99a707e9f1a5defa035a48de0cae2d8582451c72d2db456/pyproject_metadata-0.10.0-py3-none-any.whl",
+                    "sha256": "b1e439a9f7560f9792ee5975dcf5e89d2510b1fc84a922d7e5d665aa9102d966",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pyproject-metadata",
@@ -70,8 +70,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f7/14/dd3a6053325e882fe191fb4b42289bbdfabf5f44307c302903a8a3236a0a/setuptools_scm-9.2.0-py3-none-any.whl",
-                    "sha256": "c551ef54e2270727ee17067881c9687ca2aedf179fa5b8f3fab9e8d73bdc421f",
+                    "url": "https://files.pythonhosted.org/packages/3d/ea/ac2bf868899d0d2e82ef72d350d97a846110c709bacf2d968431576ca915/setuptools_scm-9.2.2-py3-none-any.whl",
+                    "sha256": "30e8f84d2ab1ba7cb0e653429b179395d0c33775d54807fc5f1dd6671801aef7",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools-scm",
@@ -97,8 +97,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/d0/19/95b3d357407220ed24c139018d2518fab0a61a948e68286a25f1a4d049ff/numpy-2.3.3.tar.gz",
-                            "sha256": "ddc7c39727ba62b80dfdbedf400d1c10ddfa8eefbd7ec8dcb118be8b56d31029",
+                            "url": "https://files.pythonhosted.org/packages/76/65/21b3bc86aac7b8f2862db1e808f1ea22b028e30a225a34a5ede9bf8678f2/numpy-2.3.5.tar.gz",
+                            "sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numpy"
@@ -160,8 +160,8 @@
                         },
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/a2/49/c5c72ebb49edf56bb06d3b805870cf6598565461670d88d292085ac96bfe/pythran-0.18.0-py3-none-any.whl",
-                            "sha256": "405ecf2100d4926d1a15640c36bd1b19a560386653d0ee4d5234f9421ef4034b",
+                            "url": "https://files.pythonhosted.org/packages/2d/25/d608f4a0a4bc3dfad40af2cdb5b92d16b907c3e0a29ff0ab6003740c63ea/pythran-0.18.1-py3-none-any.whl",
+                            "sha256": "e1d811a5843d1881f8adcc3944fe3b84c7317ebf4530617829c19c9836f18b49",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "pythran",
@@ -201,8 +201,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/4c/3b/546a6f0bfe791bbb7f8d591613454d15097e53f906308ec6f7c1ce588e8e/scipy-1.16.2.tar.gz",
-                            "sha256": "af029b153d243a80afb6eabe40b0a07f8e35c9adc269c019f364ad747f826a6b",
+                            "url": "https://files.pythonhosted.org/packages/0a/ca/d8ace4f98322d01abcd52d381134344bf7b431eba7ed8b42bdea5a3c2ac9/scipy-1.16.3.tar.gz",
+                            "sha256": "01e87659402762f43bd2fee13370553a17ada367d42e7487800bf2916535aecb",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "scipy"
@@ -269,8 +269,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/f3/0d/d0d6dea55cd152ce3d6767bb38a8fc10e33796ba4ba210cbab9354b6d238/pillow-11.3.0.tar.gz",
-                            "sha256": "3828ee7586cd0b2091b6209e5ad53e20d0649bbe87164a459d0676e035e8f523",
+                            "url": "https://files.pythonhosted.org/packages/5a/b0/cace85a1b0c9775a9f8f5d5423c8261c858760e2466c79b2dd184638b056/pillow-12.0.0.tar.gz",
+                            "sha256": "87d4f8125c9988bfbed67af47dd7a953e2fc7b0cc1e7800ec6d2080d490bb353",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "pillow"
@@ -427,8 +427,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/a0/59/c3e6453a9676ffba145309a73c462bb407f4400de7de3f2b41af70720a3c/matplotlib-3.10.6.tar.gz",
-                            "sha256": "ec01b645840dd1996df21ee37f208cd8ba57644779fa20464010638013d3203c",
+                            "url": "https://files.pythonhosted.org/packages/ae/e2/d2d5295be2f44c678ebaf3544ba32d20c1f9ef08c49fe47f496180e1db15/matplotlib-3.10.7.tar.gz",
+                            "sha256": "a06ba7e2a2ef9131c79c49e63dad355d2d878413a0376c1727c8b9335ff731c7",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "matplotlib"
@@ -452,8 +452,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/8d/ca/c1217ae2c15c3284a9e219c269624f80fa1582622eb0400c711a26f84a43/numexpr-2.13.1.tar.gz",
-                            "sha256": "ecb722249c2d6ed7fefe8504bb17e056481a5f31233c23a7ee02085c3d661fa1",
+                            "url": "https://files.pythonhosted.org/packages/cb/2f/fdba158c9dbe5caca9c3eca3eaffffb251f2fb8674bf8e2d0aed5f38d319/numexpr-2.14.1.tar.gz",
+                            "sha256": "4be00b1086c7b7a5c32e31558122b7b80243fe098579b170967da83f3152b48b",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numexpr"
@@ -526,4 +526,3 @@
         }
     ]
 }
-
