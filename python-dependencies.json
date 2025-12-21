@@ -143,12 +143,12 @@
                             "url": "https://files.pythonhosted.org/packages/a3/61/8001b38461d751cd1a0c3a6ae84346796a5758123f3ed97a1b121dfbf4f3/gast-0.6.0-py3-none-any.whl",
                             "sha256": "52b182313f7330389f72b069ba00f174cfe2a06411099547288839c6cbafbd54",
                             "x-checker-data": {
-                            "versions": {
-                                "<": "0.7.0"
-                            },
-                            "type": "pypi",
-                            "name": "gast",
-                            "packagetype": "bdist_wheel"
+                                "versions": {
+                                    "<": "0.7.0"
+                                },
+                                "type": "pypi",
+                                "name": "gast",
+                                "packagetype": "bdist_wheel"
                             }
                         },
                         {
