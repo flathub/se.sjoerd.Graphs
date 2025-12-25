@@ -4,19 +4,37 @@
     "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "graphs",
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.openblas"
+    ],
+    "add-extensions": {
+        "org.freedesktop.Sdk.Extension.openblas": {
+            "directory": "lib/sdk/openblas",
+            "add-ld-path": "lib",
+            "no-autodownload": false,
+            "version": "24.08"
+        }
+    },
     "finish-args": [
         "--share=ipc",
         "--socket=wayland",
         "--socket=fallback-x11",
         "--device=dri",
-        "--env=NUMEXPR_MAX_THREADS=16"
-    ],
+        "--env=NUMEXPR_MAX_THREADS=16"    ],
     "cleanup": [
         "*.la",
         "*.a"
     ],
     "build-options": {
-        "ldflags": "-Wl,--strip-debug"
+        "ldflags": "-Wl,--strip-debug",
+        "append-path": "/usr/lib/sdk/openblas/bin",
+        "append-ld-library-path": "/usr/lib/sdk/openblas/lib",
+        "append-pkg-config-path": "/usr/lib/sdk/openblas/lib/pkgconfig",
+        "env": {
+            "NPY_BLAS_ORDER": "openblas",
+            "NPY_LAPACK_ORDER": "openblas",
+            "OPENBLAS": "/usr/lib/sdk/openblas"
+        }
     },
     "modules": [
         "python-dependencies.json",
