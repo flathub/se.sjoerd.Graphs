@@ -4,37 +4,6 @@
     "build-commands": [],
     "modules": [
         {
-            "name": "openblas",
-            "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "config-opts": [
-                "-DBUILD_TESTING:BOOL=OFF",
-                "-DBUILD_SHARED_LIBS:BOOL=ON",
-                "-DBUILD_STATIC_LIBS:BOOL=OFF",
-                "-DDYNAMIC_ARCH:BOOL=ON",
-                "-DCMAKE_BUILD_TYPE:STRING=Release",
-                "-DNO_AFFINITY:BOOL=ON",
-                "-DUSE_THREAD:BOOL=ON",
-                "-DNUM_THREADS=64"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/OpenMathLib/OpenBLAS",
-                    "commit": "993fad6aebbce34a97d3f8c34d6d79d35b64cc48",
-                    "tag": "v0.3.30",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$"
-                    }
-                },
-                {
-                    "type": "patch",
-                    "path": "fix-aarch64-build.patch"
-                }
-            ]
-        },
-        {
             "name": "python-build-dependencies",
             "buildsystem": "simple",
             "build-commands": [
