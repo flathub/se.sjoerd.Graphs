@@ -17,7 +17,9 @@
                 "-DCMAKE_BUILD_TYPE:STRING=Release",
                 "-DNO_AFFINITY:BOOL=ON",
                 "-DUSE_THREAD:BOOL=ON",
-                "-DNUM_THREADS=64"
+                "-DNUM_THREADS=64",
+                "-DNO_AVX512:BOOL=ON",
+                "-DCMAKE_BUILD_TYPE:STRING=Release"
             ],
             "sources": [
                 {
