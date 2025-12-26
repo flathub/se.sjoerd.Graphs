@@ -9,18 +9,28 @@
             "builddir": true,
             "config-opts": [
                 "-DBUILD_TESTING:BOOL=OFF",
-                "-DDYNAMIC_ARCH:BOOL=ON"
+                "-DBUILD_SHARED_LIBS:BOOL=ON",
+                "-DBUILD_STATIC_LIBS:BOOL=OFF",
+                "-DDYNAMIC_ARCH:BOOL=ON",
+                "-DCMAKE_BUILD_TYPE:STRING=Release",
+                "-DNO_AFFINITY:BOOL=ON",
+                "-DUSE_THREAD:BOOL=ON",
+                "-DNUM_THREADS=64"
             ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.30.tar.gz",
-                    "sha256": "27342cff518646afb4c2b976d809102e368957974c250a25ccc965e53063c95d",
+                    "type": "git",
+                    "url": "https://github.com/OpenMathLib/OpenBLAS",
+                    "commit": "993fad6aebbce34a97d3f8c34d6d79d35b64cc48",
+                    "tag": "v0.3.30",
                     "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 2540,
-                        "url-template": "https://github.com/xianyi/OpenBLAS/archive/v$version.tar.gz"
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-aarch64-build.patch"
                 }
             ]
         },
