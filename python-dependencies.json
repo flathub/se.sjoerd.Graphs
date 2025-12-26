@@ -8,13 +8,16 @@
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": [
+                "-DBUILD_TESTING:BOOL=OFF",
                 "-DBUILD_SHARED_LIBS:BOOL=ON",
                 "-DBUILD_STATIC_LIBS:BOOL=OFF",
                 "-DDYNAMIC_ARCH:BOOL=ON",
-                "-DINTERFACE64:BOOL=ON",
-                "-DUSE_THREAD:BOOL=OFF",
+                "-DCORE=GENERIC",
+                "-DNO_AVX512=1",
+                "-DCMAKE_BUILD_TYPE:STRING=Release",
                 "-DNO_AFFINITY:BOOL=ON",
-                "-DNO_WARMUP:BOOL=ON"
+                "-DUSE_THREAD:BOOL=ON",
+                "-DNUM_THREADS=64"
             ],
             "sources": [
                 {
