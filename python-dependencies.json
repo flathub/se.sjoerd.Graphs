@@ -22,8 +22,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/OpenMathLib/OpenBLAS",
-                    "commit": "993fad6aebbce34a97d3f8c34d6d79d35b64cc48",
-                    "tag": "v0.3.30",
+                    "commit": "76f1be470c9b9f80dc6e27407e13b975df436489",
+                    "tag": "v0.3.31",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -64,8 +64,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/28/58/66db620a8a7ccb32633de9f403fe49f1b63c68ca94e5c340ec5cceeb9821/meson_python-0.18.0-py3-none-any.whl",
-                    "sha256": "3b0fe051551cc238f5febb873247c0949cd60ded556efa130aa57021804868e2",
+                    "url": "https://files.pythonhosted.org/packages/16/7f/d1b0c65b267a1463d752b324f11d3470e30889daefc4b9ec83029bfa30b5/meson_python-0.19.0-py3-none-any.whl",
+                    "sha256": "67b5906c37404396d23c195e12c8825506074460d4a2e7083266b845d14f0298",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "meson-python",
@@ -101,8 +101,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/a4/7a/6a3d14e205d292b738db449d0de649b373a59edb0d0b4493821d0a3e8718/numpy-2.4.0.tar.gz",
-                            "sha256": "6e504f7b16118198f138ef31ba24d985b124c2c469fe8467007cf30fd992f934",
+                            "url": "https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz",
+                            "sha256": "a1ceafc5042451a858231588a104093474c6a5c57dcc724841f5c888d237d690",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numpy"
@@ -211,8 +211,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/0a/ca/d8ace4f98322d01abcd52d381134344bf7b431eba7ed8b42bdea5a3c2ac9/scipy-1.16.3.tar.gz",
-                            "sha256": "01e87659402762f43bd2fee13370553a17ada367d42e7487800bf2916535aecb",
+                            "url": "https://files.pythonhosted.org/packages/56/3e/9cca699f3486ce6bc12ff46dc2031f1ec8eb9ccc9a320fdaf925f1417426/scipy-1.17.0.tar.gz",
+                            "sha256": "2591060c8e648d8b96439e111ac41fd8342fdeff1876be2e19dea3fe8930454e",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "scipy"
