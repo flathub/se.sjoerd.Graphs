@@ -28,10 +28,6 @@
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "fix-aarch64-build.patch"
                 }
             ]
         },
