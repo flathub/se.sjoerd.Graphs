@@ -97,8 +97,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/57/fd/0005efbd0af48e55eb3c7208af93f2862d4b1a56cd78e84309a2d959208d/numpy-2.4.2.tar.gz",
-                            "sha256": "659a6107e31a83c4e33f763942275fd278b21d095094044eb35569e86a21ddae",
+                            "url": "https://files.pythonhosted.org/packages/10/8b/c265f4823726ab832de836cdd184d0986dcf94480f81e8739692a7ac7af2/numpy-2.4.3.tar.gz",
+                            "sha256": "483a201202b73495f00dbc83796c6ae63137a9bdade074f7648b3e32613412dd",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numpy"
@@ -311,8 +311,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/ec/ca/cf17b88a8df95691275a3d77dc0a5ad9907f328ae53acbe6795da1b2f5ed/fonttools-4.61.1.tar.gz",
-                            "sha256": "6675329885c44657f826ef01d9e4fb33b9158e9d93c537d84ad8399539bc6f69",
+                            "url": "https://files.pythonhosted.org/packages/5a/96/686339e0fda8142b7ebed39af53f4a5694602a729662f42a6209e3be91d0/fonttools-4.62.0.tar.gz",
+                            "sha256": "0dc477c12b8076b4eb9af2e440421b0433ffa9e1dcb39e0640a6c94665ed1098",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "fonttools"
@@ -348,8 +348,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/5c/3c/85844f1b0feb11ee581ac23fe5fce65cd049a200c1446708cc1b7f922875/kiwisolver-1.4.9.tar.gz",
-                            "sha256": "c3b22c26c6fd6811b0ae8363b95ca8ce4ea3c202d3d0975b2914310ceb1bcc4d",
+                            "url": "https://files.pythonhosted.org/packages/d0/67/9c61eccb13f0bdca9307614e782fec49ffdde0f7a2314935d489fa93cd9c/kiwisolver-1.5.0.tar.gz",
+                            "sha256": "d4193f3d9dc3f6f79aaed0e5637f45d98850ebf01f7ca20e69457f3e8946b66a",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "kiwisolver"
@@ -488,7 +488,7 @@
                             "x-checker-data": {
                                 "versions": {
                                     "<": "1.4.0"
-                                },                                
+                                },
                                 "type": "pypi",
                                 "name": "mpmath",
                                 "packagetype": "bdist_wheel"
