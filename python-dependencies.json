@@ -311,8 +311,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/5a/96/686339e0fda8142b7ebed39af53f4a5694602a729662f42a6209e3be91d0/fonttools-4.62.0.tar.gz",
-                            "sha256": "0dc477c12b8076b4eb9af2e440421b0433ffa9e1dcb39e0640a6c94665ed1098",
+                            "url": "https://files.pythonhosted.org/packages/9a/08/7012b00a9a5874311b639c3920270c36ee0c445b69d9989a85e5c92ebcb0/fonttools-4.62.1.tar.gz",
+                            "sha256": "e54c75fd6041f1122476776880f7c3c3295ffa31962dc6ebe2543c00dca58b5d",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "fonttools"
