@@ -22,8 +22,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/OpenMathLib/OpenBLAS",
-                    "commit": "76f1be470c9b9f80dc6e27407e13b975df436489",
-                    "tag": "v0.3.31",
+                    "commit": "8cecf899e21d99f9d8766ed34bfeeb3e2992c844",
+                    "tag": "v0.3.32",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
