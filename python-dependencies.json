@@ -80,8 +80,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/16/84/dd5be4e461a73db2c67cf4625021513f3131a3ad650ad0d2a1fa85c5e83a/setuptools_scm-10.0.4-py3-none-any.whl",
-                    "sha256": "20da42e6d417cfd11693259c0a2184bc58b1cf52315be3e92ed7557fb3af07c4",
+                    "url": "https://files.pythonhosted.org/packages/5c/e1/342c4434df56aa537f6ce7647eefee521d96fbb828b08acd709865767652/setuptools_scm-10.0.5-py3-none-any.whl",
+                    "sha256": "f611037d8aae618221503b8fa89319f073438252ae3420e01c9ceec249131a0a",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools-scm",
