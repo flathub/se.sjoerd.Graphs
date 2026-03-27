@@ -70,8 +70,18 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/3d/ea/ac2bf868899d0d2e82ef72d350d97a846110c709bacf2d968431576ca915/setuptools_scm-9.2.2-py3-none-any.whl",
-                    "sha256": "30e8f84d2ab1ba7cb0e653429b179395d0c33775d54807fc5f1dd6671801aef7",
+                    "url": "https://files.pythonhosted.org/packages/61/c8/fba51718114acac3e26092f6bd7400203aee409c7ea6be9c0a41d3926ade/vcs_versioning-1.1.0-py3-none-any.whl",
+                    "sha256": "786266108f9a4b8e3de7ac8c4c5138509f9b947f694d92eda3d6c6e220df5df9",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "vcs-versioning",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/16/84/dd5be4e461a73db2c67cf4625021513f3131a3ad650ad0d2a1fa85c5e83a/setuptools_scm-10.0.4-py3-none-any.whl",
+                    "sha256": "20da42e6d417cfd11693259c0a2184bc58b1cf52315be3e92ed7557fb3af07c4",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools-scm",
