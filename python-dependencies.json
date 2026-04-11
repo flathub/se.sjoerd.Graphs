@@ -267,8 +267,8 @@
                         {
                             "type": "git",
                             "url": "https://github.com/HOST-Oman/libraqm",
-                            "commit": "00814288bec3deb7dc49201e135d572c730a96d3",
-                            "tag": "v0.10.4",
+                            "commit": "3a6b891a3db0e0db1364aa38088422f68d8d81e6",
+                            "tag": "v0.10.5",
                             "x-checker-data": {
                                 "type": "git",
                                 "tag-pattern": "^v([\\d.]+)$"
