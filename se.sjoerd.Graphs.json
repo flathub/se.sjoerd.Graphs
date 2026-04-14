@@ -1,7 +1,7 @@
 {
     "id": "se.sjoerd.Graphs",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "graphs",
     "finish-args": [
@@ -24,7 +24,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Graphs.git",
-                    "commit": "e06d93cd4a1ad24d137013135b6a619d47a78f98"
+                    "commit": "303f88c6de30253c4e0e0e4bd61afec290c2fd72"
                 }
             ]
         }
