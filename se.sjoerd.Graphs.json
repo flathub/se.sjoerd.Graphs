@@ -27,7 +27,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Graphs.git",
-                    "commit": "651b50823c6ed88baaa8b72091f9dfea6a49b628",
+                    "commit": "1a98cd36ee45d68495bb4d8ad896a815421d1a9a",
                     "tag": "v2.0.0",
                     "x-checker-data": {
                         "type": "git",
