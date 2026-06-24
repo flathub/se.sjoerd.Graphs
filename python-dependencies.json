@@ -70,8 +70,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e6/60/73603fbcdbe5e803855bcce4414f94eaeed449083bd8183e67161af78188/vcs_versioning-1.1.1-py3-none-any.whl",
-                    "sha256": "b541e2ba79fc6aaa3850f8a7f88af43d97c1c80649c01142ee4146eddbc599e4",
+                    "url": "https://files.pythonhosted.org/packages/38/62/6fe8d9f670980e9e1c879eed5653cd24b6015a892873c206b4ae3fd35526/vcs_versioning-2.1.2-py3-none-any.whl",
+                    "sha256": "d559440f0cb46b6672e65492c34eadd45a736d61d5b28d43ae1ad37bc4a9f06f",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "vcs-versioning",
@@ -80,8 +80,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5c/e1/342c4434df56aa537f6ce7647eefee521d96fbb828b08acd709865767652/setuptools_scm-10.0.5-py3-none-any.whl",
-                    "sha256": "f611037d8aae618221503b8fa89319f073438252ae3420e01c9ceec249131a0a",
+                    "url": "https://files.pythonhosted.org/packages/be/6b/209c1eb9c92c49d6bbe080ee8ee54d580955f6bd0de37fd5104aa0c51d35/setuptools_scm-10.1.2-py3-none-any.whl",
+                    "sha256": "8bb17e208fb22ebc11e4eaf6d765955db1903eefd21a3f0ed5518fc3fb186e84",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools-scm",
@@ -107,8 +107,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/d0/ad/fed0499ce6a338d2a03ebae59cd15093910c8875328855781952abf6c2fe/numpy-2.4.6.tar.gz",
-                            "sha256": "f3a3570c4a2a16746ac2c31a7c7c7b0c186b95ce902e33db6f28094ed7387dda",
+                            "url": "https://files.pythonhosted.org/packages/e7/05/3d27272d30698dc0ecb7fdfaa41ad70303b444f81722bb99bce1d818638a/numpy-2.5.0.tar.gz",
+                            "sha256": "5a129578019311b6e56bdd714250f19b518f7dceeeb8d1af5490f4942d3f891c",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numpy"
