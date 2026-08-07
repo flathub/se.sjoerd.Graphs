@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/df/b2/87e62e8c3e2f4b32e5fe99e0b86d576da1312593b39f47d8ceef365e95ed/packaging-26.2-py3-none-any.whl",
-                    "sha256": "5fc45236b9446107ff2415ce77c807cee2862cb6fac22b8a73826d0693b0980e",
+                    "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+                    "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "packaging",
@@ -70,8 +70,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/95/2e/83be70d0379bbe17034e5d5960fae2a23cc136d466786607d2615ac2612b/vcs_versioning-2.2.3-py3-none-any.whl",
-                    "sha256": "4f7873af76f5cc24e701608354f376f5eb70b317d663787ace57a7edd7a27506",
+                    "url": "https://files.pythonhosted.org/packages/7a/26/7d2b738d2b7e177e729932dbdf1ebfa57c98846777a87a864130cc1e196b/vcs_versioning-2.2.4-py3-none-any.whl",
+                    "sha256": "48ffea8a6a175c37a718c7ee2e5f508d0e500c2cf3371791f7948bccb2b44628",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "vcs-versioning",
@@ -195,8 +195,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/b3/06/c3a23c9a0263b136c519f033a58d4641e73065fefc7754e9667ec206d992/pybind11-3.0.4-py3-none-any.whl",
-                            "sha256": "961720ee652da51d531b7b2451a6bd2bc042b0106e6d9baa48ecb7d58034ce63",
+                            "url": "https://files.pythonhosted.org/packages/33/fd/8762f7ee3e4e4be6d1d846cffb4916dd9bb02b2f800d3603718a0efe494c/pybind11-3.1.0-py3-none-any.whl",
+                            "sha256": "b8488090f8acffbcb6b5d6a85571a6827a0a2981ffb75e5a0b27b87c4a6b7dd0",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "pybind11",
