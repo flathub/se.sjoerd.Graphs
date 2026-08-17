@@ -17,6 +17,7 @@
     ],
     "modules": [
         "python-dependencies.json",
+        "libgsf.json",
         {
             "name": "graphs",
             "buildsystem": "meson",
@@ -24,7 +25,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Graphs.git",
-                    "commit": "12f5abf0dea69e405d666fef82e6459bda4d4e46"
+                    "commit": "bc2aa99a5cf30f15d0b5c729df6b7fde1555f4e3"
                 }
             ]
         }
