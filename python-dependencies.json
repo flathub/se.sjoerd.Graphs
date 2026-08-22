@@ -70,8 +70,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/7a/26/7d2b738d2b7e177e729932dbdf1ebfa57c98846777a87a864130cc1e196b/vcs_versioning-2.2.4-py3-none-any.whl",
-                    "sha256": "48ffea8a6a175c37a718c7ee2e5f508d0e500c2cf3371791f7948bccb2b44628",
+                    "url": "https://files.pythonhosted.org/packages/8e/1e/94c0a4b8c8c639e91ff6bce375a2c92460a711b9e040b28674ed492d004d/vcs_versioning-2.3.1-py3-none-any.whl",
+                    "sha256": "a11299394e101569a62ab061375260d08bc56cd33d685b7067d85312368f4457",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "vcs-versioning",
@@ -176,8 +176,8 @@
                         },
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/2d/25/d608f4a0a4bc3dfad40af2cdb5b92d16b907c3e0a29ff0ab6003740c63ea/pythran-0.18.1-py3-none-any.whl",
-                            "sha256": "e1d811a5843d1881f8adcc3944fe3b84c7317ebf4530617829c19c9836f18b49",
+                            "url": "https://files.pythonhosted.org/packages/4a/dd/6930fa349be42a3ceb14732ec922fb77f2dd9979f16a5df4e0f575369703/pythran-0.19.0-py3-none-any.whl",
+                            "sha256": "42ab2039b4eaec01084e92a2721a474e893047ba5ec87b14d45ee077ac883d08",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "pythran",
@@ -217,8 +217,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/a7/25/c2700dfaf6442b4effaa91af24ebce5dc9d31bb4a69706313aae70d72cd0/scipy-1.18.0.tar.gz",
-                            "sha256": "67b2ad2ad54c72ca6d04975a9b2df8c3638c34ddd5b28738e94fc2b57929d378",
+                            "url": "https://files.pythonhosted.org/packages/7e/74/66de6258867beb2ef08f35f9f2ac017a52cacd5081714d239ff1a442d458/scipy-1.18.1.tar.gz",
+                            "sha256": "52c4b7422442aba924d03ad4019852b08a92e64ea187b933135687bfe2747307",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "scipy"
