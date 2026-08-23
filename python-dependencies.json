@@ -70,8 +70,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/7a/26/7d2b738d2b7e177e729932dbdf1ebfa57c98846777a87a864130cc1e196b/vcs_versioning-2.2.4-py3-none-any.whl",
-                    "sha256": "48ffea8a6a175c37a718c7ee2e5f508d0e500c2cf3371791f7948bccb2b44628",
+                    "url": "https://files.pythonhosted.org/packages/8e/1e/94c0a4b8c8c639e91ff6bce375a2c92460a711b9e040b28674ed492d004d/vcs_versioning-2.3.1-py3-none-any.whl",
+                    "sha256": "a11299394e101569a62ab061375260d08bc56cd33d685b7067d85312368f4457",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "vcs-versioning",
@@ -150,12 +150,9 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/a3/61/8001b38461d751cd1a0c3a6ae84346796a5758123f3ed97a1b121dfbf4f3/gast-0.6.0-py3-none-any.whl",
-                            "sha256": "52b182313f7330389f72b069ba00f174cfe2a06411099547288839c6cbafbd54",
+                            "url": "https://files.pythonhosted.org/packages/1d/33/f1c6a276de27b7d7339a34749cc33fa87f077f921969c47185d34a887ae2/gast-0.7.0-py3-none-any.whl",
+                            "sha256": "99cbf1365633a74099f69c59bd650476b96baa5ef196fec88032b00b31ba36f7",
                             "x-checker-data": {
-                                "versions": {
-                                    "<": "0.7.0"
-                                },
                                 "type": "pypi",
                                 "name": "gast",
                                 "packagetype": "bdist_wheel"
@@ -163,12 +160,9 @@
                         },
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/44/e4/6e8731d4d10dd09942a6f5015b2148ae612bf13e49629f33f9fade3c8253/beniget-0.4.2.post1-py3-none-any.whl",
-                            "sha256": "e1b336e7b5f2ae201e6cc21f533486669f1b9eccba018dcff5969cd52f1c20ba",
+                            "url": "https://files.pythonhosted.org/packages/66/24/0bef8a8bbf403b536fb2368b6c3fb5f6669b3ef7fdbc2456a3affdd19836/beniget-0.5.0-py3-none-any.whl",
+                            "sha256": "909efcd083af1ac4a5db311f57c415df8cb05c4307eda345edeafac3cd930043",
                             "x-checker-data": {
-                                "versions": {
-                                    "<": "0.5.0"
-                                },
                                 "type": "pypi",
                                 "name": "beniget",
                                 "packagetype": "bdist_wheel"
@@ -176,8 +170,8 @@
                         },
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/2d/25/d608f4a0a4bc3dfad40af2cdb5b92d16b907c3e0a29ff0ab6003740c63ea/pythran-0.18.1-py3-none-any.whl",
-                            "sha256": "e1d811a5843d1881f8adcc3944fe3b84c7317ebf4530617829c19c9836f18b49",
+                            "url": "https://files.pythonhosted.org/packages/4a/dd/6930fa349be42a3ceb14732ec922fb77f2dd9979f16a5df4e0f575369703/pythran-0.19.0-py3-none-any.whl",
+                            "sha256": "42ab2039b4eaec01084e92a2721a474e893047ba5ec87b14d45ee077ac883d08",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "pythran",
@@ -217,8 +211,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/a7/25/c2700dfaf6442b4effaa91af24ebce5dc9d31bb4a69706313aae70d72cd0/scipy-1.18.0.tar.gz",
-                            "sha256": "67b2ad2ad54c72ca6d04975a9b2df8c3638c34ddd5b28738e94fc2b57929d378",
+                            "url": "https://files.pythonhosted.org/packages/7e/74/66de6258867beb2ef08f35f9f2ac017a52cacd5081714d239ff1a442d458/scipy-1.18.1.tar.gz",
+                            "sha256": "52c4b7422442aba924d03ad4019852b08a92e64ea187b933135687bfe2747307",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "scipy"
