@@ -352,8 +352,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/d0/67/9c61eccb13f0bdca9307614e782fec49ffdde0f7a2314935d489fa93cd9c/kiwisolver-1.5.0.tar.gz",
-                            "sha256": "d4193f3d9dc3f6f79aaed0e5637f45d98850ebf01f7ca20e69457f3e8946b66a",
+                            "url": "https://files.pythonhosted.org/packages/ba/07/bd78e6a8fae171ea041ef5bba3ed21a003522fa088834b069b1909981f30/kiwisolver-1.5.1.tar.gz",
+                            "sha256": "f1303ef2eec81262a4b708c3e858afe58d7c75ad91c1c05266eda7673369859a",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "kiwisolver"
