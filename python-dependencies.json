@@ -70,8 +70,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c4/1a/69a37c3c29e164bfd5bb340dfb6c4de7e5343311150d9edcec02c0e6a2d6/vcs_versioning-2.3.2-py3-none-any.whl",
-                    "sha256": "df6cdf10eab8fc0cc41c8ab9d1f1ebdacab8489a4c46fbeb1e6e06823b74d31f",
+                    "url": "https://files.pythonhosted.org/packages/a0/30/cbf2883ee604dc83ff510516ae05e93b17bfcb4d18279ae12905e13f49da/vcs_versioning-2.3.4-py3-none-any.whl",
+                    "sha256": "076afa0e12a42a23faba92bcb62cb016c1ce38051ceee1f302de1e2676a68bbc",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "vcs-versioning",
@@ -80,8 +80,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9a/9d/9b504c33edf83f6f09bea186fbd74e42eec8aeaf5821a81dec43cd685478/setuptools_scm-10.2.2-py3-none-any.whl",
-                    "sha256": "509585ce0628ede1c64ab1e40e7464481fb880c80a388effce9067bf6b2142fe",
+                    "url": "https://files.pythonhosted.org/packages/4b/00/e9c0591b77186f6c1a8479500456ee72cd30730836c58b7a8a2654909c23/setuptools_scm-10.2.3-py3-none-any.whl",
+                    "sha256": "7fcf8ff55c95eb8b572a23c81495e5559b9b90f3e82fcf0952bb76c37de27a81",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools-scm",
