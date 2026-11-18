@@ -107,8 +107,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/95/b0/c7453d0b6e2073c3264468b106ee1563750cecc910965e67357e3698c83e/numpy-2.5.4.tar.gz",
-                            "sha256": "9a94cf751c9ad8ebaa835bcd3d40dacf8534ad086b88c38029b65123c7999d2a",
+                            "url": "https://files.pythonhosted.org/packages/4e/3a/8770c288c47f0b5c2a786d3c20e79f66fd245f2d42cd232d7cd5e00e83e5/numpy-2.5.5.tar.gz",
+                            "sha256": "5cddc243c75114ba845f01b1f87aca1572dbf7b6c2d88636ed3e1d2bccd7f1bf",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "numpy"
@@ -160,8 +160,8 @@
                         },
                         {
                             "type": "file",
-                            "url": "https://files.pythonhosted.org/packages/66/24/0bef8a8bbf403b536fb2368b6c3fb5f6669b3ef7fdbc2456a3affdd19836/beniget-0.5.0-py3-none-any.whl",
-                            "sha256": "909efcd083af1ac4a5db311f57c415df8cb05c4307eda345edeafac3cd930043",
+                            "url": "https://files.pythonhosted.org/packages/33/40/6840c2e7d29b791702202c6e9da224cc189fdb3f28a72de43fa328c29753/beniget-0.5.1-py3-none-any.whl",
+                            "sha256": "c57375e04fa8c812d2f3650900bbb393615810e49673e9a62de329e1b3696938",
                             "x-checker-data": {
                                 "type": "pypi",
                                 "name": "beniget",
